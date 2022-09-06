@@ -23,50 +23,79 @@ header{
     height: 100%;
 }
 
-.nav-bar{
-    background-color: #daa520;
-    height: 40px;
-    width: calc(100% / 1.5);
+.nav-bar-flex{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-#logo{
-    border: 1px dashed black;
-    width: calc(100% / 5);
-    padding: 0.5em;
+.text-align-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    text-align: center;
+}
+.header-text-center{
+    color: white;
 }
 
-#link{
-    border: 1px dashed black;
-    width: calc(60% - 3px);
-    text-align: center;
+.header-text-center h1{
+    margin-bottom: 5%;
+}
+.header-text-flex{
+    width: calc(40%);
+    height: calc(60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    color: white;
+    padding: 1em;
+}
+.nav-bar{
+    width: calc(100% / 1.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: calc(100% / 5);
     padding: 0.5em;
 }
 
 #login{
-    border: 1px dashed black;
-    width: calc(100% / 5);
+    background-color: #ffffff;
     text-align: right;
     padding: 0.5em;
-} */
+    border-radius: 12px;
+} 
 
-.section-1{
-    height: 300px;
-    background-color: darkblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#scarica-per-mac{
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 12px;
+    color: black;
+    margin-right: 1em;
 }
 
-.section-1-container{
-    height: calc(80%);
-    width: calc(100% / 2);
-    background-color: #e97fe9;
-    border: 1px dashed black;
+#apri-nel-browser{
+    background-color: #23272a;
+    padding: 0.5em;
+    border-radius: 12px;
+    color: white;
 }
 
+.buttons{
+    margin-top: 1.5em;
+}
 
 /* MAIN */
 /* SECTION-2 */
